@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 40px;
+  color: #fff;
+}
+
+header {
+  max-height: 100vh;
+
+  ul {
+    list-style: none;
+
+    a {
+      font-size: 1.3rem;
+      text-decoration: none;
+      text-transform: capitalize;
+      transition: .3s ease-in-out;
+
+      &:hover {
+        color: #ff3c005e;
+        }
+    }
+  }
+
+  nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+
+      span {
+        color: #ff3d00;
+      }
+    }
+
+    ul {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+      .btn {
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        padding: 5px 25px;
+        margin-top: 5px;
+        background: #ff3c00;
+        backdrop-filter: blur(25px);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .3s ease-in-out;
+        box-shadow: 0 5px 10px #ff3c00;
+
+        &:hover {
+        background: #ff3c005e;
+        }
+      }
+    }
+  }
+  }
+
+  .video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+
+  form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 150px;
+    
+    h1 {
+      font-size: 5rem;
+      font-weight: 600;
+      line-height: 100px;
+      margin-bottom: 40px;
+    }
+
+    .box {
+      border: 1px solid white;
+      border-radius: 50px;
+      backdrop-filter: blur(10px);
+    }
+
+      input {
+        right: 150px;
+        position: relative;
+        border: none;
+        outline: none;
+        font-size: 1.3rem;
+        background: none;
+
+
+        &::placeholder {
+          color: #ffffff42;
+        }
+      }
+  
+      button {
+        left: 210px;
+        position: relative;
+        background: none;
+        padding: 15px 40px;
+        border: none;
+        cursor: pointer;
+        border-left: 1px solid white;
+
+
+        i {
+          padding-top: 10px;
+          color: white;
+          font-size: 2rem;
+        }
+      }
+    }
+
+  
